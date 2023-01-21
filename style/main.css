@@ -9504,6 +9504,11 @@ p {
   box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
 }
 
+.page-dashboard #page-content-wrapper {
+  background: #f5f5fb;
+  min-width: 100vw;
+}
+
 .component-categories {
   background-color: #f4f4f4;
   border-radius: 8px;

@@ -2,7 +2,6 @@
   #page-content-wrapper{
     background: #f5f5fb;
     min-width: 100vw;
-    min-height: 100vh;
   }
 
   #sidebar-wrapper{
@@ -32,7 +31,6 @@
     margin-top: 0;
     background-color: #f5f5fb;
     box-shadow: 0px 4px 5px #cacad1;
-
     @include media-breakpoint-up(md) {
       background-color: transparent;
       box-shadow: none;
@@ -45,10 +43,10 @@
     color: #c5c5c5;
 
     &.active{
-      background-color: linear-gradient(
-      270deg,
-      rgba(255,113,88,0,32) 2%,
-      rgba(255,255,255,0) 100%
+      background: linear-gradient(
+        270deg,
+        rgba(255, 113, 88, 0.32) 2%,
+        rgba(255, 255, 255, 0) 100%
       );
       border-right: 4px solid #ff7158;
       color: #0c0d36;
